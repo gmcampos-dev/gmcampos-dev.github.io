@@ -12,7 +12,9 @@
 
 <body>
     <header class="header">
-        <img src="./img/Marca.svg" alt="Marca Guilherme" width="224" height="40">
+        <a href="#" id="logo-topo" aria-label="Voltar ao topo">
+            <img src="./img/Marca.svg" alt="Marca Guilherme" width="224" height="40">
+        </a>
         <nav>
             <ul class="header-menu">
                 <li><a href="#experiencia">Experiência</a></li>
@@ -24,6 +26,7 @@
 
     <main class="intro">
         <div>
+            <p class="estilo-terminal"><span id="texto-animado"></span></p>
             <h1>Desenvolvedor<br> Front-End</h1>
             <p>Localizado em São Paulo</p>
         </div>
@@ -32,18 +35,14 @@
     <section class="experiencia" id="experiencia" aria-label="Experiência">
         <h2 class="subtitulo">Experiência</h2>
         <div>
-            <p class="experiencia-texto">Desenvolvo pequenos projetos como o Bikcraft, utilizando apenas
-                <strong>HTML</strong>, <strong>CSS</strong> e <strong>Javascript.</strong>
-                Para aplicativos web como a rede social Dogs, eu trabalhei no <strong>UX</strong> e <strong>UI Design</strong> do projeto.
+            <p class="experiencia-texto">Desenvolvo interfaces web modernas, responsivas e acessíveis. Transformo design em código limpo e estruturado utilizando <strong>HTML</strong>, <strong>CSS (com domínio em Flexbox e Grid)</strong>, trago interatividade para as páginas através do <strong>JavaScript</strong>
             </p>
 
             <div class="empresa">
                 <span class="empresa-ano">2025</span>
                 <h3 class="empresa-titulo">Bikcraft</h3>
                 <span class="empresa-titulo">Desenvolvedor Júnior</span>
-                <p class="empresa-texto">Desenvolvo pequenos projetos como o Bikcraft,
-                    utilizando apenas HTML, CSS e Javascript. Para
-                    aplicativos web como a rede social Dogs.</p>
+                <p class="empresa-texto">Site institucional e e-commerce desenvolvido para uma marca de bicicletas personalizadas. O foco do projeto foi construir uma interface responsiva e acessível, unindo um design refinado (UI/UX) com interações dinâmicas criadas em JavaScript para aprimorar a experiência do usuário.</p>
 
                 <ul class="empresa-habilidades">
                     <li>HTML</li>
@@ -57,9 +56,7 @@
                 <span class="empresa-ano">2024-25</span>
                 <h3 class="empresa-titulo">Surfbot</h3>
                 <span class="empresa-titulo">Desenvolvedor Júnior</span>
-                <p class="empresa-texto">Desenvolvo pequenos projetos como o Bikcraft,
-                    utilizando apenas HTML, CSS e Javascript. Para
-                    aplicativos web como a rede social Dogs.</p>
+                <p class="empresa-texto">Landing page responsiva voltada para o universo do surf. O desenvolvimento priorizou a estruturação semântica e a criação de layouts fluidos utilizando as melhores práticas de CSS, garantindo uma navegação rápida e adaptável a qualquer tamanho de tela.</p>
 
                 <ul class="empresa-habilidades">
                     <li>HTML</li>
@@ -71,9 +68,7 @@
                 <span class="empresa-ano">2024</span>
                 <h3 class="empresa-titulo">Brafé</h3>
                 <span class="empresa-titulo">Desenvolvedor Júnior</span>
-                <p class="empresa-texto">Desenvolvo pequenos projetos como o Bikcraft,
-                    utilizando apenas HTML, CSS e Javascript. Para
-                    aplicativos web como a rede social Dogs.</p>
+                <p class="empresa-texto">Criação de interface visual e desenvolvimento de campanhas de e-mail marketing para uma rede de cafeterias. O projeto destaca a codificação de e-mails responsivos, garantindo alta compatibilidade entre diferentes provedores e foco na conversão dos usuários.</p>
 
                 <ul class="empresa-habilidades">
                     <li>Email Marketing</li>
@@ -90,26 +85,23 @@
 
             <div>
                 <p class="formacao-texto">
-                    Minha mais recente experiência academica foi a
-                    graduação em <strong>Análise e Desenvolvimento de
-                        Sistemas.</strong> Além disso me mantenho sempre
-                    atualizado com cursos intensivos online.
+                    Com base técnica consolidada pela minha formação em <strong>Redes de Computadores</strong>, atualmente expando minha atuação cursando <strong> Análise e Desenvolvimento de Sistemas</strong>. Para além da graduação, mantenho uma rotina ativa de estudos através de cursos online de programação, garantindo que estou semnpre atualizado com as tecnologias mais modernas do Front-End.
                 </p>
                 <ul class="faculdade-lista">
                     <li class="faculdade">
-                        <span class="faculdade-tipo">Tecnólogo</span>
+                        <span class="faculdade-tipo">Graduação</span>
+                        <h3 class="faculdade-curso">Redes de Computadores</h3>
+                        <span class="faculdade-instituicao">FATEC</span>
+                    </li>
+                    <li class="faculdade">
+                        <span class="faculdade-tipo">Tecnologo</span>
                         <h3 class="faculdade-curso">Análise e Desenvolvimento de Sistemas</h3>
-                        <span class="faculdade-instituicao">FMU</span>
+                        <span class="faculdade-instituicao">UNICID</span>
                     </li>
                     <li class="faculdade">
-                        <span class="faculdade-tipo">Intensivo</span>
-                        <h3 class="faculdade-curso">Desenvolvimento Python</h3>
-                        <span class="faculdade-instituicao">UDEMY</span>
-                    </li>
-                    <li class="faculdade">
-                        <span class="faculdade-tipo">Intensivo</span>
-                        <h3 class="faculdade-curso">Banco de Dados MySQL</h3>
-                        <span class="faculdade-instituicao">UDEMY</span>
+                        <span class="faculdade-tipo">Curso</span>
+                        <h3 class="faculdade-curso">Desenvolvimento Front-End</h3>
+                        <span class="faculdade-instituicao">Origamid</span>
                     </li>
                 </ul>
                 <div class="formacao-extra">
@@ -117,10 +109,13 @@
                         <h3>Cursos Intensivos</h3>
                         <ul>
                             <li>
-                                Redes de Computadores <span>52h</span>
+                                Desenvolvimento Python <span>40h</span>
                             </li>
                             <li>
-                                Javascript <span>68h</span>
+                                Bando de dados MySQL <span>20h</span>
+                            </li>
+                            <li>
+                                UI/UX <span>30h</span>
                             </li>
                         </ul>
                     </div>
@@ -141,12 +136,14 @@
         <div class="footer-container">
             <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa.</p>
             <ul class="footer-contato">
-                <li>dev.gmagalhaes@gmail.com</li>
-                <li>+55 (11) 98880-0317</li>
+                <li><a href="mailto:dev.gmagalhaes@gmail.com">dev.gmagalhaes@gmail.com</a></li>
+                <li><a href="https://wa.me/5511988800317" target="_blank">+55 (11) 98880-0317</a></li>
             </ul>
             <p class="footer-copy">Guilherme. Todos os direitos reservados.</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

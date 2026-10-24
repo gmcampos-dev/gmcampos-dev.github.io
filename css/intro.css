@@ -34,6 +34,18 @@
   z-index: -1;
 }
 
+.estilo-terminal {
+  font-family: monospace;
+  font-size: 1.1rem;
+  color: #555555;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.typed-cursor {
+  color: #f6d6ae;
+}
+
 @media (max-width: 1000px) {
   .intro h1 {
     font-size: 3rem;

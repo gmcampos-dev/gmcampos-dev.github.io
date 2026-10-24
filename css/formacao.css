@@ -55,8 +55,20 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  border: 1px solid transparent;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
+.faculdade:hover {
+  transform: translateY(-5px);
+  border-color: #f6d64e;
+  box-shadow:
+    0 8px 15px rgba(0, 0, 0, 0.5),
+    0 0 15px rgba(246, 214, 78, 0.2);
+}
 .faculdade-tipo {
   font-size: 0.825rem;
   text-transform: uppercase;
@@ -77,7 +89,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#c789f6, #745090);
+  background: linear-gradient(#f6d6ae, #eab208);
   position: absolute;
   left: -24px;
 }
